@@ -3,21 +3,18 @@ chrome.runtime.onInstalled.addListener(function () {
   chrome.storage.sync.get('enabled', ({ enabled }) => {
     if (enabled === undefined) {
       console.log('首次安装，初始化用户设置');
-      const initialValue = true;
+      const initialValue = false;
+      const locale = chrome.i18n.getUILanguage();
+      chrome.storage.sync.set({ target_language: locale }).then(() => {});
       chrome.storage.sync.set({ enabled: initialValue }).then(() => {});
-      // chrome.action
-      //   .setBadgeText({ text: initialValue ? 'ON' : 'OFF' })
-      //   .then(() => {});
     }
   });
 });
 
 // 监听来自 content 的消息
 chrome.runtime.onConnect.addListener((port) => {
-  console.log('收到来自 content 的消息');
+  console.log('message from content');
   port.onMessage.addListener(({ message }) => {
-    console.log('收到来自 content 的消息', message);
-    // chrome.storage.sync.set({ enabled: enabled }).then(() => {});
-    // chrome.action.setBadgeText({ text: enabled ? 'ON' : 'OFF' }).then(() => {});
+    console.log('message from content', message);
   });
 });
