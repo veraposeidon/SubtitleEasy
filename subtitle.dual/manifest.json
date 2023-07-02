@@ -14,12 +14,13 @@
       "matches": ["https://developer.apple.com/*"],
       "js": ["scripts/content_apple_dev.js"],
       "run_at": "document_idle"
-    },
-    {
-      "matches": ["https://coursera.org/*", "https://*.coursera.org/*"],
-      "js": ["scripts/content.js"],
-      "run_at": "document_idle"
     }
+    // },
+    // {
+    //   "matches": ["https://coursera.org/*", "https://*.coursera.org/*"],
+    //   "js": ["scripts/content.js"],
+    //   "run_at": "document_idle"
+    // }
   ],
   "action": {
     "default_popup": "popup.html",
