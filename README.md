@@ -59,10 +59,13 @@
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
+      <a href="#how-to-download-and-install-the-chrome-extension">How to Download and Install the Chrome Extension</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#step-1-download-the-zip-file">Step 1: Download the Zip File</a></li>
+        <li><a href="#step-2-extract-the-zip-file">Step 2: Extract the Zip File</a></li>
+        <li><a href="#step-3-install-the-chrome-extension">Step 3: Install the Chrome Extension</a></li>
+        <li><a href="#step-4-enable-the-chrome-extension">Step 4: Enable the Chrome Extension</a></li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
@@ -91,31 +94,44 @@
 
 <!-- GETTING STARTED -->
 
-## Getting Started
+## How to Download and Install the Chrome Extension
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+This tutorial will guide you through the process of downloading and installing the Chrome extension from the provided zip file.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+Google Chrome browser installed on your computer.
 
-- npm
-  ```sh
-  npm install npm@latest -g
-  ```
+### Step 1: Download the Zip File
 
-### Installation
+1. Go to the [Releases](https://github.com/veraposeidon/SubtitleEasy/releases) page.
+2. Find the latest release version and click on the "SubtitleEasy.zip" link to download the zip file.
+3. Save the zip file to a location on your computer.
 
-1. Get a free API Key at [https://example.com](https://github.com/veraposeidon/SubtitleEasy)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/veraposeidon/SubtitleEasy.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
+### Step 2: Extract the Zip File
+
+1. Locate the downloaded zip file on your computer.
+2. Right-click on the zip file and select "Extract All" or a similar option.
+3. Choose a destination folder where you want to extract the contents of the zip file.
+4. Click "Extract" to extract the files from the zip archive.
+
+### Step 3: Install the Chrome Extension
+
+1. Open the Google Chrome browser on your computer.
+2. In the address bar, type chrome://extensions and press Enter.
+3. In the top right corner, enable "Developer mode".
+4. Click on the "Load unpacked" button.
+5. Navigate to the folder where you extracted the zip file in Step 2.
+6. Select the "SubtitleEasy" folder and click "Select Folder".
+7. The Chrome extension will now be installed and ready to use.
+
+### Step 4: Enable the Chrome Extension
+
+1. After installation, you should see the Chrome extension's icon appear in the browser's toolbar. If you don't see the icon, click on the puzzle piece icon in the toolbar and pin the extension.
+2. Click on the Chrome extension's icon to open the popup window.
+3. Click on the "Enable" button to enable the Chrome extension.
+4. Select the language you want to use for the subtitles.
+5. Now you can go to the Apple Developer website or Coursera and watch videos with subtitles.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
