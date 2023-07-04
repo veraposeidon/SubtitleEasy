@@ -35,7 +35,11 @@
 <h3 align="center">SubtitleEasy</h3>
 
   <p align="center">
-    该项目是一个 Chrome 扩展程序，为 Apple Developer (WWDC Videos) 和 Coursera 的视频提供双语字幕功能，提升观看和学习体验。
+    This is a Chrome extension designed to provide bilingual subtitles for videos, aiming to enhance your viewing and learning experience in different language environments.
+    <br />
+    这是一个Chrome扩展程序，旨在为视频提供双语字幕功能，以帮助您在不同语言环境下观看和学习时获得更出色的体验。
+    <br />
+    これは、ビデオに対してバイリンガルの字幕機能を提供するためのChrome拡張機能です。異なる言語環境での視聴や学習の体験を向上させることを目的としています。
     <br />
     <a href="https://github.com/veraposeidon/SubtitleEasy"><strong>Explore the docs »</strong></a>
     <br />
@@ -80,6 +84,11 @@
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
+
+Current supported video platforms:
+
+- [Apple Developer Videos (WWDC sessions)](https://developer.apple.com/videos/)
+- [deeplearning.ai](https://www.deeplearning.ai/)
 
 [![Product Name Screen Shot][product-screenshot]](https://github.com/veraposeidon/SubtitleEasy)
 
@@ -199,6 +208,11 @@ Project Link: [https://github.com/veraposeidon/SubtitleEasy](https://github.com/
 
 - [GoogleChrome/chrome-extensions-samples: Chrome Extensions Samples](https://github.com/GoogleChrome/chrome-extensions-samples)
 - [tamshadow/coursera-subtitle-translation](https://github.com/tamshadow/coursera-subtitle-translation)
+
+## Inspiration
+
+- [YouTube™ Dual Caption](https://www.dual-subtitles.com/)
+- [Dualsub](https://www.dualsub.xyz/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
