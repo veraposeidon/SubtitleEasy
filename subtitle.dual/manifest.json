@@ -16,7 +16,7 @@
       "run_at": "document_idle"
     },
     {
-      "matches": ["https://learn.deeplearning.ai/*"],
+      "matches": ["https://*.deeplearning.ai/*"],
       "js": ["scripts/content_deeplearningai.js"],
       "run_at": "document_idle"
     }
