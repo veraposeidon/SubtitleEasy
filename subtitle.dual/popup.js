@@ -112,7 +112,10 @@ async function getSupportLanguages() {
 /// 返回值为一个 map, key 为语言代码，value 为语言名称
 async function getGoogleTranslateApiSupportedLanguages(locale) {
   const url = `https://translate.googleapis.com/translate_a/l?client=webapp&hl=${locale}`;
-  const response = await fetch(url);
+  // Access to fetch at 'https://translate.googleapis.com/translate_a/l?client=webapp&hl=zh-CN' from origin 'chrome-extension://gdignmkpgdklaldmdgaonahopedjbkei' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. If an opaque response serves your needs, set the request's mode to 'no-cors' to fetch the resource with CORS disabled.
+  const response = await fetch(url, {
+    mode: 'cors'
+  });
   const data = await response.json();
   const support_languages = data['tl'];
   // 保存到本地

@@ -2,7 +2,7 @@
   "name": "SubtileEasy",
   "version": "1.1.0",
   "private": true,
-  "description": "SubtileEasy",
+  "description": "SubtitleEasy",
   "scripts": {
     "prettier": "npx prettier **/*.{md,html,json} -w",
     "lint": "eslint **/*.js",

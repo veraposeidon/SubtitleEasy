@@ -1,4 +1,4 @@
-// Apple Developer video
+// Deep Learning video
 // 字幕懒加载，因此需要在原有字幕上添加双语
 
 let dual_subs_enabled = false;
@@ -6,7 +6,7 @@ let target_subs_has_set = false;
 let last_cues_length = 0; // 用于记录上一次字幕长度，用于判断是否有新字幕更新或者切换字幕
 let origin_text_track = null;
 let origin_cue_ids = [];
-const base_sub_lang = 'en';
+const base_sub_lang = 'en-us';
 let target_sub_lang = '';
 
 // 自动读取用户设置，用于主动触发 双字幕功能
@@ -38,6 +38,7 @@ window.onload = async () => {
 async function updateSubtitles() {
   // 如果没有开启双字幕功能，则不执行
   if (!dual_subs_enabled) return;
+
   // 如果已经设置过目标语言字幕，则不再执行（因为有目标语言字幕，且设置过一次，后面跟随用户操作即可）
   if (target_subs_has_set) return;
 
@@ -92,7 +93,7 @@ async function updateSubtitles() {
     // 用于存放原文用的 track
     origin_text_track = htmlVideoElement.addTextTrack(
       'subtitles',
-      '🚫 Backup',
+      '🚫',
       base_sub_lang
     );
     hide_text_track(origin_text_track);
@@ -143,7 +144,6 @@ function show_text_track(track) {
 function get_text_track_by_lang(videoElement, language) {
   // https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/track
   const textTracks = videoElement.textTracks;
-  console.log('language', language);
 
   if (!textTracks || textTracks.length === 0) {
     return null;
