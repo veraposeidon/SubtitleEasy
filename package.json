@@ -1,5 +1,5 @@
 {
-  "name": "SubtileEasy",
+  "name": "subtile_easy",
   "version": "1.2.0",
   "private": true,
   "description": "SubtitleEasy",
@@ -7,7 +7,8 @@
     "prettier": "npx prettier **/*.{md,html,json} -w",
     "lint": "eslint **/*.js",
     "lint:fix": "npm run lint -- --fix",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "build": "webpack --config webpack.config.js"
   },
   "repository": {
     "type": "git",
@@ -22,13 +23,18 @@
   "homepage": "https://github.com/veraposeidon/SubtitleEasy#readme",
   "devDependencies": {
     "chrome-types": "^0.1.199",
+    "copy-webpack-plugin": "^11.0.0",
     "eslint": "8.34.0",
     "eslint-config-prettier": "8.6.0",
     "eslint-plugin-import": "2.27.5",
     "eslint-plugin-prettier": "4.2.1",
     "husky": "8.0.0",
     "lint-staged": "13.1.2",
-    "prettier": "2.8.4"
+    "prettier": "2.8.4",
+    "rimraf": "^5.0.1",
+    "webpack": "^5.88.1",
+    "webpack-cli": "^5.1.4",
+    "zip-webpack-plugin": "^4.0.1"
   },
   "lint-staged": {
     "**/*.js": [

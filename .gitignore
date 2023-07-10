@@ -8,3 +8,6 @@ _metadata
 .vscode/*
 # IDEA
 .idea/*
+
+#dist
+dist/*
