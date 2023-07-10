@@ -19,6 +19,7 @@ jobs:
         run: |
           npm ci
           npm run build
+          cd dist && zip -r subtitle_easy.zip . && cd ..
       - name: Upload & release
         uses: mnao305/chrome-extension-upload@v4.0.1
         with:
