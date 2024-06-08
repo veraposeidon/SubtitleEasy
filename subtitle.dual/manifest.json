@@ -31,6 +31,7 @@
     }
   },
   "permissions": ["storage", "activeTab", "i18n"],
+  "default_locale": "en",
   "background": {
     "service_worker": "scripts/service-worker.js"
   }
