@@ -1,0 +1,20 @@
+{
+  "settings": {
+    "message": "Settings"
+  },
+  "bilingual_subtitles_enabled": {
+    "message": "Bilingual Subtitles Enabled"
+  },
+  "choose_language": {
+    "message": "Choose your language"
+  },
+  "help": {
+    "message": "Help"
+  },
+  "supported_websites": {
+    "message": "Supported Websites"
+  },
+  "wwdc_videos": {
+    "message": "WWDC Videos - Apple Developer"
+  }
+}
