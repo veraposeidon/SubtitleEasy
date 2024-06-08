@@ -1,0 +1,20 @@
+{
+  "settings": {
+    "message": "设置"
+  },
+  "bilingual_subtitles_enabled": {
+    "message": "双语字幕已启用"
+  },
+  "choose_language": {
+    "message": "选择你的语言"
+  },
+  "help": {
+    "message": "帮助"
+  },
+  "supported_websites": {
+    "message": "支持的网站"
+  },
+  "wwdc_videos": {
+    "message": "WWDC 视频 - Apple 开发者"
+  }
+}

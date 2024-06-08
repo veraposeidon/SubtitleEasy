@@ -1,0 +1,20 @@
+{
+  "settings": {
+    "message": "設定"
+  },
+  "bilingual_subtitles_enabled": {
+    "message": "バイリンガル字幕が有効"
+  },
+  "choose_language": {
+    "message": "言語を選択してください"
+  },
+  "help": {
+    "message": "ヘルプ"
+  },
+  "supported_websites": {
+    "message": "サポートされているウェブサイト"
+  },
+  "wwdc_videos": {
+    "message": "WWDC ビデオ - Apple 開発者"
+  }
+}
