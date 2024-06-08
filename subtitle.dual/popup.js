@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   const select = document.getElementById('language-select');
   const options = await getSupportLanguages();
   // Load localized strings
-  document.querySelectorAll('[data-i18n]').forEach(elem => {
+  document.querySelectorAll('[data-i18n]').forEach((elem) => {
     const message = chrome.i18n.getMessage(elem.getAttribute('data-i18n'));
     if (message) {
       elem.innerText = message;
