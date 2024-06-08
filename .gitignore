@@ -8,3 +8,4 @@ _metadata
 .vscode/*
 # IDEA
 .idea/*
+.aider*
