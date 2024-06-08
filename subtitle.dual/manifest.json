@@ -30,7 +30,7 @@
       "128": "images/icon-128.png"
     }
   },
-  "permissions": ["storage", "activeTab"],
+  "permissions": ["storage", "activeTab", "i18n"],
   "background": {
     "service_worker": "scripts/service-worker.js"
   }
